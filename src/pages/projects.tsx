@@ -39,7 +39,7 @@ const Projects: React.FunctionComponent<PageProps> = ({ data: { projects } }) =>
   })
 
   return (
-    <Layout color="#000">
+    <Layout color="#2f2f2f">
       <SEO title="Projects | Jodie" />
       <Area style={pageAnimation}>
         {projects.nodes.map(project => (

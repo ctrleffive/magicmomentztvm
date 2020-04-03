@@ -97,3 +97,21 @@ export const Button = styled.button<ButtonProps>`
 `
 
 Button.displayName = 'Button'
+
+type LinkProps = SpaceProps & WidthProps & ColorProps
+
+export const Link = styled.a<LinkProps>`
+  border-radius: 1000rem;
+  border: none;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+  }
+  ${space}
+  ${width}
+  ${color}
+`
+
+Link.displayName = 'Link'

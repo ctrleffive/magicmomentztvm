@@ -15,6 +15,6 @@ module.exports = {
   ogLanguage: 'en_US', // og:language
   googleAnalyticsID: 'UA-XXXXXX-X',
 
-  themeColor: '#db7436',
+  themeColor: '#2196f3',
   backgroundColor: '#3b3c4f',
 }

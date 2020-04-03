@@ -102,7 +102,7 @@ const Index: React.FunctionComponent<PageProps> = ({ data: { firstProject, three
           <Img fluid={firstProject.cover.childImageSharp.fluid} />
           <span>{firstProject.title}</span>
         </FirstProject>
-        <AboutUs to="/about" aria-label="Visit my about page">
+        <AboutUs to="/about" aria-label="Visit our about page">
           <Img fluid={aboutUs.childImageSharp.fluid} />
           <span>About</span>
         </AboutUs>

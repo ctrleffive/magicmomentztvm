@@ -6,7 +6,6 @@ import 'typeface-work-sans'
 import { Box, Flex } from '../elements'
 import theme from '../../config/theme'
 import reset from '../styles/reset'
-import Logo from './logo'
 
 const GlobalStyles = createGlobalStyle`
   *::before,
@@ -122,6 +121,10 @@ const SideBarInner = styled(Box)<{ bg: string }>`
 
   background: ${props => props.bg};
 
+  .logo-link {
+    display: block;
+  }
+
   @media (max-width: ${props => props.theme.breakpoints[4]}) {
     width: ${props => props.theme.sidebarWidth.normal};
   }
@@ -228,9 +231,9 @@ const Layout = ({ children, color }: LayoutProps) => {
               alignItems={['center', 'center', 'center', 'flex-start']}
               justifyContent="space-between"
             >
-              <Box width={['3rem', '4rem', '5rem', '6rem']}>
-                <Link to="/" aria-label="LekoArts, Back to Home">
-                  <Logo />
+              <Box>
+                <Link className="logo-link" to="/" aria-label="Magic Momentz">
+                  <img src="/assets/logo.png" alt="" width="100%" />
                 </Link>
               </Box>
               <Nav
@@ -252,8 +255,7 @@ const Layout = ({ children, color }: LayoutProps) => {
           <Main>{children}</Main>
           <Footer color={color}>
             <Box p={[6, 6, 8]} fontSize={0}>
-              Starter by <a href="https://www.lekoarts.de/en">LekoArts</a>.<br />
-              <a href="https://github.com/LekoArts/gatsby-starter-portfolio-jodie">Source</a>.
+              <a href="https://github.com/ctrleffive/magicmomentztvm">Source</a>
             </Box>
           </Footer>
         </Wrapper>

@@ -123,6 +123,15 @@ const SideBarInner = styled(Box)<{ bg: string }>`
 
   .logo-link {
     display: block;
+    font-weight: bold;
+    font-size: 3rem;
+    text-decoration: none;
+    .one {
+      color: #E91E63;
+    }
+    .two {
+      color: #2196F3;
+    }
   }
 
   @media (max-width: ${props => props.theme.breakpoints[4]}) {
@@ -233,7 +242,8 @@ const Layout = ({ children, color }: LayoutProps) => {
             >
               <Box>
                 <Link className="logo-link" to="/" aria-label="Magic Momentz">
-                  <img src="/assets/logo.png" alt="" width="100%" />
+                  <span className="one">Magic </span>
+                  <span className="two">Momentz</span>
                 </Link>
               </Box>
               <Nav

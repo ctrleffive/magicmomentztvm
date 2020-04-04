@@ -10,11 +10,6 @@ module.exports = {
   siteDescription: 'Momentz to treasure forever',
   author: 'Chandu J S',
 
-  userTwitter: '@jodie', // Twitter Username
-  ogSiteName: 'jodie', // Facebook Site Name
-  ogLanguage: 'en_US', // og:language
-  googleAnalyticsID: 'UA-XXXXXX-X',
-
   themeColor: '#2196f3',
   backgroundColor: '#3b3c4f',
 }

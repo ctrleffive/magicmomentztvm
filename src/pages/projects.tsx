@@ -40,7 +40,7 @@ const Projects: React.FunctionComponent<PageProps> = ({ data: { projects } }) =>
 
   return (
     <Layout color="#2f2f2f">
-      <SEO title="Projects | Jodie" />
+      <SEO title="Projects | Magic Momentz" />
       <Area style={pageAnimation}>
         {projects.nodes.map(project => (
           <GridItem key={project.slug} to={project.slug} aria-label={`View project "${project.title}"`}>

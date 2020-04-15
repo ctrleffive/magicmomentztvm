@@ -30,6 +30,10 @@ const About = () => {
           arunjyothicv@gmail.com<br />
           magicmomentzarunjyothicv@gmail.com
         </p>
+        <h3>Phone</h3>
+        <p>
+          +919995220580
+        </p>
       </AnimatedBox>
     </Layout>
   )

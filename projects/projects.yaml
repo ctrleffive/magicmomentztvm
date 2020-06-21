@@ -1,3 +1,12 @@
+- title: "New Born Photography"
+  title_detail: "New Born Photography"
+  slug: "new-born-photography"
+  category: "New Born Photography"
+  color: "#2f2f2f"
+  images: "new-born-photography"
+  cover: "./new-born-photography/projects-new-born-photography-001.jpg"
+  desc: "New Born Photography"
+
 - title: "Arya Indrajith"
   title_detail: "Arya Indrajith - Postwedding Photoshoot"
   slug: "arya-indrajith"
